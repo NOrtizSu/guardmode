@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GuardMode</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1b1f2a; --muted: #5b6475; --accent: #c77700; --card: #f5f6f9; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121625; --fg: #e8eaf0; --muted: #a3abbd; --accent: #ffb300; --card: #1c2133; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+    .hero { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+    .hero svg { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+    h1 { margin: 0; font-size: 2rem; }
+    .muted { color: var(--muted); }
+    section { background: var(--card); border-radius: 12px; padding: 4px 20px 16px; margin-top: 24px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <svg viewBox="0 0 108 108" aria-hidden="true">
+      <rect width="108" height="108" fill="#16213E"/>
+      <path fill="#FFB300" d="M54,25 L77,33.5 V52 C77,66.5 67.5,77.5 54,83 C40.5,77.5 31,66.5 31,52 V33.5 Z"/>
+      <path fill="#FFCA28" d="M54,25 L31,33.5 V52 C31,66.5 40.5,77.5 54,83 Z"/>
+      <g transform="translate(39 38.7) scale(1.25)"><path fill="#16213E" d="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.89,2 2,2zM18,16v-5c0,-3.07 -1.64,-5.64 -4.5,-6.32V4c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5v0.68C7.63,5.36 6,7.92 6,11v5l-2,2v1h16v-1l-2,-2z"/></g>
+    </svg>
+    <div>
+      <h1>GuardMode</h1>
+      <p class="muted">Enjoy Your Time</p>
+    </div>
+  </div>
+
+  <section lang="es">
+    <p>Los días que tu calendario tenga una <strong>guardia</strong>, GuardMode pone el móvil en sonido, sube el volumen y
+      deja pasar las llamadas y Teams durante el horario de guardia. Al terminar, lo deja como estaba. Todo se procesa en
+      tu móvil: sin cuentas, sin anuncios, sin Internet.</p>
+  </section>
+  <section lang="en">
+    <p>On days when your calendar has an <strong>on-call shift</strong>, GuardMode switches your phone to sound mode,
+      raises the volume and lets calls and Teams through during your on-call hours, then restores everything when the
+      shift ends. Everything runs on your phone: no accounts, no ads, no Internet.</p>
+  </section>
+
+  <p><a href="privacy.html">Política de privacidad / Privacy policy</a> ·
+    <a href="mailto:enjoyyourtime.online@gmail.com">enjoyyourtime.online@gmail.com</a></p>
+</main>
+</body>
+</html>
